@@ -1,0 +1,29 @@
+@keyframes arribanormal {
+    from{
+top: -100%;
+    }to{
+top: 0;
+    }
+}
+@keyframes izquierdanormal {
+    from{
+        left: -100%;
+            }to{
+        top: 0;
+            }
+}
+@keyframes opacidad {
+    from{
+        top: -100%;
+            }to{
+        top: 0;
+            }
+}
+@keyframes skew-normal {
+    from {
+      transform: skew(180deg, 180deg);
+    }
+    to {
+      transform: skew(0, 0);
+    }
+  }

@@ -1,0 +1,61 @@
+html, body,.contenedor,.escena{
+    height: 100%;
+    
+}
+.contenedor{
+    background-color: rgb(120, 60, 133);
+}
+.escena{
+    display: block;
+    background-color: crimson;
+    position: relative;
+}
+#presentacion{
+    display: block;
+    background-color: blueviolet;
+}
+.contenido{
+    width:50% ;
+    height: 50%;
+    background-color: transparent ;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: transparent black;
+    color: rgb(170, 5, 5);
+    font-size: xx-large;
+}
+#presentacion{
+    background-image: url(presentacion.png);
+    background-size: cover;
+    animation: arribaAbajo 5s;
+}
+#alarcon{
+    background-image: url(alarcon.png);
+}
+#belmonte{
+    background-image: url(belmonte.jpg);
+}
+#sisante{
+    background-image: url(sisante.png);
+}
+#sanClemente{
+    background-image: url(sanClemente.png);
+}
+#huete{
+    background-image: url(huete.png);
+}
+#contraportada{
+    background-image: url(contraportada.jpg);
+}
+audio{
+    position: fixed;
+    top: 5%;
+    right: 5%;
+}
+
+
